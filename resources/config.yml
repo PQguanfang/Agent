@@ -8,7 +8,7 @@
 # 888  "Y88888P"     888  d88P     888 8888888P"   "Y8888    Y88P    88888P'
 #
 # Configuration File for the 'Agent' AntiCheat
-#
+# @汉化者 YuIo_PQ
 # @author IOTADevs
 # @link https://github.com/IOTADevs/Agent
 #
@@ -17,9 +17,9 @@
 warningsBeforeKick: 1
 
 messages:
- fly: "{player} was caught Fly Hacking."
- no-clip: "{player} was caught using No Clip."
+ fly: "{player}被检测出飞行."
+ no-clip: "{player}被检测出穿墙."
 
 kickMessages:
- fly: "Fly Hacking isn't allowed on this server"
- no-clip: "No Clip isn't allowed on this server"
+ fly: "你被移出本服务器，原因：飞行"
+ no-clip: "你被移出本服务器，原因：穿墙"

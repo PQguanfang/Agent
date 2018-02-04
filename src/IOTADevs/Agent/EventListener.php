@@ -42,9 +42,9 @@ class EventListener implements Listener {
 	public function onJoin(PlayerJoinEvent $ev){
 		if(!isset($this->plugin->warnings[$ev->getPlayer()->getName()])){
 			$this->plugin->warnings[$ev->getPlayer()->getName()] = 0;
-			$ev->getPlayer()->sendMessage(Main::getPrefix() . "I'm watching you...");
+			$ev->getPlayer()->sendMessage(Main::getPrefix() . "我正在观察你...");
 		} else {
-			$ev->getPlayer()->sendMessage(Main::getPrefix() . "I'm still watching you...");
+			$ev->getPlayer()->sendMessage(Main::getPrefix() . "我仍正在观察你...");
 		}
 	}
 }

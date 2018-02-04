@@ -79,6 +79,6 @@ class Main extends PluginBase{
 	}
 
 	public static function getPrefix() : string {
-		return TextFormat::DARK_GRAY . "Agent" . TextFormat::WHITE . "> ";
+		return TextFormat::DARK_GRAY . "反作弊" . TextFormat::WHITE . "> ";
 	}
 }
